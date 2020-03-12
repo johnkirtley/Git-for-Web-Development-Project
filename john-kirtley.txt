@@ -1,0 +1,104 @@
+https://codepen.io/Aznpersuasion/pen/dyyZwOL?editors=1100
+
+
+Project Questions:
+
+    1. What is Semantic HTML? 
+        Semantic HTML is markup that adds meaning to a webpage.
+    2. What is HTML used for? 
+        Used to add meaning and structure to web content.
+    3. What is an attribute and where do we put it? 
+        Attributes are used to control an element's behavior. They are found in the opening tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        The h1 tag is only used once to show the search engine what your page or content is about.
+    5. Name two tags that have required attributes
+        Input and Select
+    6. What do we put in the head of our HTML document? 
+        Page title, stylesheets, and meta tags.
+    7. What is an id? 
+        An id is a unique identifer for HTML where the id name can only be used once.
+    8. What elements can I add an id to? 
+        Any elements within the html body.
+    9. How many times can I use the same id on a page? 
+        An id can only be used once.
+    10. What is a class? 
+        A class is similar to an id, except classes can be used multiple times if needed.
+    11. What elements can I add a class to? 
+        Any element within the html body.
+    12. How many times can I use the same class on a page? 
+        As many times as needed.
+    13. How do I get my link to open in a new tab?
+        target = "_blank"
+    14. What is the alt attribute used for? 
+        It is used for accessibility purposes to show a description about items you hover over.
+    15. How do I reference an id?
+        With #
+    16. What is the difference between a section and a div
+        A section is meant to split large sections apart. Whereas a div can split smaller areas apart within a section.
+    17. What is CSS used for? 
+        To style html elements.
+    18. How to we select an element? Example - every h2 on the page
+        In the stylesheet by typing the element before curly brackets (h2 {}).
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        Classes can be resused, whereas you'd only want to use an id once. For example, you might give all divs the same class name to apply the same styles, but you'd only give ids to nav items as you'd only want to specify them once on the page.
+    20. How do we select classes in CSS?
+        By putting a period in front of the class name (.className).
+    21. How do we select a p element with a single class of “human””?
+        You would write the css as p .human {styles}.
+    22. What is a parent child selector? When would this be useful? 
+        The parent child selector is symbolized by >. This only selects elements where the specified child is within the specified parent (parent>child).
+    23. How do you select all links within a div with the class of sidebar?
+        .sidebar a 
+    24. What is a pseudo selector?
+        Used to define a special state of an elements. For example, a:hover where :hover is the pseudo selector for a.
+    25. What do we use the change the spacing between lines?
+        the line-height property
+    26. What do we use to change the spacing between letters?
+        the letter-spacing property
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        You use the text-transform property and specify capitalize, uppercase, or lowercase.
+    28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted black
+    29. How do I select everything on the page? 
+        With the * selector
+    30. How do I write a comment in CSS?
+        /* Commented out text */
+    31. How do I find out what file I am in, when I am using the command line? 
+        Type pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        Type ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm file_name or directory_name
+    34. Why should I use version control? 
+        It not only allows you to work efficiently between teams, it allows you to go back to previous versions if mistakes are made.
+    35. How often should I commit to github?
+        As often as possible. Probably every 20-30 minutes.
+    36. What is the command we would use to push our repo up to github? 
+        git push or git push -u origin branchname
+    37. Walk me through Lambda's git flow. 
+        Fork repo
+        Add TL as collaborator
+        Git clone repo url 
+        Git checkout -b 'your-name'
+        Work on Project
+        Git status to check for changes
+        Git add .
+        Git commit -m 'commit-message'
+        Git push -u origin branch-name
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+        Block elements will sit by themselves on each line and take up the full width available, where inline elements will sit on the same line as they only take up the necessary width.
+    2. What happens when an element is positioned absolutely? 
+        The element will be positioned relative to the nearest ancestor, instead of the viewport. If no ancestors exist, the element uses the document body for positioning.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        With the inline-block display property.
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        Block elements: p, li, and header 
+        Inline elements: a, i, and img 
+        Inline-block element: button 
+    5. In your own words, explain the box model. What is the fix for the box model? 
+        The box model is used to set the area within and around the content.
+        From inside out, the box model is content, padding, border, margin.
+        The fix for the box model is by using the box-sizing property. 
